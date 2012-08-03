@@ -2,7 +2,7 @@ class glpi::params {
 
   case $::operatingsystem {
     'CentOS', 'RedHat': {
-      $glpi_package = 'glpi'
+      $package = 'glpi'
       $web_service = 'httpd'
     }
     default: {
