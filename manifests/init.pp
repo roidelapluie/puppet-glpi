@@ -6,7 +6,7 @@ class glpi(
   include glpi::packages
   class {
     'glpi::config':
-      require => Class['glpi::package'],
+      require => Class['glpi::packages'],
   }
 
 }
