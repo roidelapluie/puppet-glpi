@@ -3,7 +3,7 @@ class glpi(
   $package = $glpi::params::package
 ) inherits glpi::params {
 
-  include glpi::package
+  include glpi::packages
   class {
     'glpi::config':
       require => Class['glpi::package'],
