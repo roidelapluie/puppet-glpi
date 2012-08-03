@@ -1,0 +1,3 @@
+class glpi::config {
+  
+}
